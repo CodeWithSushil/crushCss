@@ -1,0 +1,28 @@
+:root {
+  --prime-color: #42FFDC;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+body {
+  height: 100vh;
+  max-width: 100%;
+  width: 100vw;
+  color: hsla(235, 0%, 100%, 1);
+  background-color: hsla(192, 100%, 50%, 1);
+}
+
+h2 {
+  text-align: center;
+  padding: 12px;
+  vertical-align: middle;
+  color: rgba(255, 0, 0, 1);
+  background-color: var(--prime-color);
+  font-size: 2rem;
+}
